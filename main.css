@@ -1,0 +1,40 @@
+/* Simple Quote Page */
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* --- -------- --- */
+
+body {
+  font-family: Ariel;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.card {
+  /* background-color: hsla(60, 100%, 50%, 0.4); /* sárga */
+  width: 890px;
+  max-width: calc(100vw - 10px); 
+}
+
+.quote {
+  padding: 1% 2%;
+  font-family: Verdana;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.quote, .author {
+  text-align: center;
+}
+
+/* --- End of file --- */
